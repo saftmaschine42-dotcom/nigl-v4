@@ -87,7 +87,7 @@ public class NiglTitleScreen extends Screen {
                     switch (i) {
                         case 0 -> mc.setScreenAndShow(new SelectWorldScreen(this));
                         case 1 -> mc.setScreenAndShow(new JoinMultiplayerScreen(this));
-                        case 2 -> mc.setScreenAndShow(new OptionsScreen(this, mc.options));
+                       case 2 -> mc.setScreenAndShow(new OptionsScreen(this, mc.options, false));
                         default -> mc.stop();
                     }
                     return true;
