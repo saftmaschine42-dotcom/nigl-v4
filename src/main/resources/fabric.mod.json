@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nigl",
+  "version": "${version}",
+  "name": "Nigl Client",
+  "description": "Nigl Client 26.2 - Utility Client fuer private Server",
+  "authors": ["Nigl"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "mixins": ["nigl.mixins.json"],
+  "entrypoints": {
+    "client": ["net.nigl.client.NiglClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

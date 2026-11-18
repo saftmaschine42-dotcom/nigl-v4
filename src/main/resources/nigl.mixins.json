@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "net.nigl.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MovePacketMixin", "GameRendererMixin", "MinecraftMixin", "LoadingOverlayMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
